@@ -16,12 +16,12 @@ To use the Assembler library in your OpenComputers project, follow these steps:
 
 1. **Download**: Clone the repository into your OpenComputers project directory:
    ```sh
-   wget 
+   wget https://raw.githubusercontent.com/DanXvoIsMe/VAsm/main/vasm-lib.lua
    ```
 
 2. **Include**: Import the `Assembler.lua` module in your Lua script:
    ```lua
-   local Asmv = require("asmv")
+   local VAsm = require("vasm-lib")
    ```
 
 ## Usage
