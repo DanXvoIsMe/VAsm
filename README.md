@@ -80,6 +80,3 @@ Contributions are welcome! Fork the repository and submit pull requests for any 
 
 This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
 
-## Acknowledgments
-
-- Inspiration and initial concept from [Provide Attribution if Applicable]
