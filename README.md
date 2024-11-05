@@ -31,16 +31,16 @@ To use the Assembler library in your OpenComputers project, follow these steps:
 Here is an example demonstrating how to use the Assembler library:
 
 ```lua
-local Assembler = require("Assembler")
+local VAsm = require("vasm-lib")
 
-local code = [
+local code = """
    createvalue myVal 10
    move myVal anotherVal
    add myVal 5 resultVal
    runsectors
-]
+"""
 
-Assembler.RunCodeWithoutSandbox(code)
+VAsm.RunCodeWithoutSandbox(code)
 ```
 
 ### Command Format
